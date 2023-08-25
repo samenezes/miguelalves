@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+ul{
+    width: 100%;
+    height: 70px;
+    background-color: #5B3800;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center; 
+    width: 100%;
+    font-size: 25px;
+    font-family: Fira Code;
+    font-weight: 700;
+    transition: all ease-out 0.2s;
+}
+
+
+a:hover {
+    transition: all ease-out 0.2s;
+    color: #D1AA6B;
+}
